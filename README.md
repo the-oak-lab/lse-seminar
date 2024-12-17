@@ -1,7 +1,3 @@
-Below is an example of a polished and clear README update that explains how to update the schedule by editing `schedule.json`. Adjust as needed for your repository’s structure and workflow.
-
----
-
 ## CMU Accessibility Lunch Seminar Website
 
 This repository hosts the website for the **CMU Accessibility Lunch Seminar** series. The site is designed to be accessible, responsive, and easy to update.
@@ -76,7 +72,3 @@ If you want to test changes before pushing:
 ### License
 
 This repository is released under the [MIT License](LICENSE).
-
----
-
-With these instructions, future maintainers and contributors can easily understand how to update the schedule and run the project locally.
