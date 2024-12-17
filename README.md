@@ -6,11 +6,11 @@ This repository hosts the website for the **CMU Accessibility Lunch Seminar** se
 
 ### About the Seminar
 
-The CMU Accessibility Lunch Seminar is a series that explores the evolution and future directions of accessibility research and practice. Each week, we feature sessions on various aspects of assistive technologies and accessible AI, inviting speakers from academia, industry, and beyond.
+The CMU Accessibility Lunch Seminar is a series that explores the evolution and future directions of accessibility research and practice. Each week, we feature sessions on various aspects of accessible and assistive technologies, inviting speakers from academia, industry, and beyond.
 
 ### How to Update the Schedule
 
-The weekly schedule is populated dynamically from a `schedule.json` file. To change the lineup, simply edit `schedule.json` and commit your changes.
+The weekly schedule is populated dynamically from a `schedule.json` file. To change the lineup, edit `schedule.json` and commit your changes.
 
 **Steps to Update the Schedule:**
 
@@ -32,7 +32,7 @@ The weekly schedule is populated dynamically from a `schedule.json` file. To cha
 
 2. **Add or Modify Entries:**
    - **Date (required):** Provide the session date in a recognizable format (e.g., `MM/DD/YYYY`).
-   - **Speakers (optional):** Add an array of speaker objects, each with `name` and optional `link`. If multiple speakers, they’ll be displayed inline, separated by spaces.
+   - **Speakers (optional):** Add an array of speaker objects, each with `name` and optional `link`. If multiple speakers are used, they’ll be displayed inline, separated by spaces.
      ```json
      "speakers": [
        { "name": "Speaker Name", "link": "https://theirprofile.com" },
