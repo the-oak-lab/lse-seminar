@@ -2,28 +2,38 @@
     {
         "date": "1/27/2025",
         "speakers": [
-          {
-            "name": "Yi-Hao Peng",
-            "link": "https://yihaopeng.tw"
-          }
+            {
+                "name": "Yi-Hao Peng (CMU)",
+                "link": "https://yihaopeng.tw"
+            }
         ],
         "topic": "AI for Accessibility: Past, Present, and Future",
-        "topicSlides": "https://accessibility.cs.cmu.edu/"
+        "topicSlides": ""
     },
     {
         "date": "2/3/2025",
-        "speaker": "",
-        "topic": ""
+        "speakers": [
+            {
+                "name": "Colin Lea (Apple)",
+                "link": "https://colinlea.com/"
+            }
+        ],
+        "topic": "Personalized ASR for Atypical Speech"
     },
     {
         "date": "2/10/2025",
-        "speaker": "",
+        "speakers": "",
         "topic": ""
     },
     {
         "date": "2/17/2025",
-        "speaker": "",
-        "topic": ""
+        "speakers": [
+            {
+                "name": "Jason Wu (Apple)",
+                "link": "https://jasonwunix.com/"
+            }
+        ],
+        "topic": "Accessible Generative UI"
     },
     {
         "date": "2/24/2025",
@@ -33,7 +43,7 @@
     {
         "date": "3/3/2025",
         "speaker": "N/A",
-        "topic": "SPRING BREAK",
+        "topic": "CMU Spring Break",
         "topicSlides": "https://www.cmu.edu/hub/calendar/important-dates.html"
     },
     {
@@ -48,8 +58,13 @@
     },
     {
         "date": "3/24/2025",
-        "speaker": "",
-        "topic": ""
+        "speakers": [
+            {
+                "name": "Danna Gurari (CU Boulder)",
+                "link": "https://dannagurari.colorado.edu/"
+            }
+        ],
+        "topic": "Visual Representation Learning for Images Taken by Blind People"
     },
     {
         "date": "3/31/2025",
@@ -79,7 +94,7 @@
             "link": ""
           }
         ],
-        "topic": "CHI 2025",
+        "topic": "Conference Travel: CHI 2025",
         "topicSlides": "https://chi2025.acm.org/"
     }
 ]
