@@ -22,23 +22,28 @@
     },
     {
         "date": "2/10/2025",
-        "speakers": "",
-        "topic": ""
-    },
-    {
-        "date": "2/17/2025",
         "speakers": [
             {
                 "name": "Jason Wu (Apple)",
                 "link": "https://jasonwunix.com/"
             }
         ],
-        "topic": "Accessible Generative UI"
+        "topic": "Understanding and Generating UIs for Access and Beyond"
+    },
+    {
+        "date": "2/17/2025",
+        "speakers": "",
+        "topic": ""
     },
     {
         "date": "2/24/2025",
-        "speaker": "",
-        "topic": ""
+        "speakers": [
+            {
+                "name": "Kayo Yin (UC Berkeley)",
+                "link": "https://kayoyin.github.io/"
+            }
+        ],
+        "topic": "Language Modeling for ASL and Beyond"
     },
     {
         "date": "3/3/2025",
