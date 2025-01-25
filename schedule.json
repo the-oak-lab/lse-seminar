@@ -58,8 +58,13 @@
     },
     {
         "date": "3/17/2025",
-        "speaker": "",
-        "topic": ""
+        "speakers": [
+            {
+                "name": "Elisa Kreiss (UCLA)",
+                "link": "https://www.coalas-lab.com/elisakreiss"
+            }
+        ],
+        "topic": "Visual Description Generation: Pragmatics, Context, and Biases."
     },
     {
         "date": "3/24/2025",
