@@ -133,6 +133,14 @@ main {
     text-align: center;
 }
 
+.intro a {
+    color: #831adfc7;
+}
+
+.intro a:visited {
+    color: #540a74f7;
+}
+
 /* SCHEDULE TABLE */
 .schedule {
     margin-bottom: 4rem;
