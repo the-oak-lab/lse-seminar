@@ -74,12 +74,17 @@
                 "link": "https://dannagurari.colorado.edu/"
             }
         ],
-        "topic": "Visual Representation Learning for Images Taken by Blind People"
+        "topic": "Learning Visual Representation for Images Taken by Blind People"
     },
     {
         "date": "3/31/2025",
-        "speaker": "",
-        "topic": ""
+        "speakers": [
+            {
+                "name": "Danielle Bragg (MSR)",
+                "link": "https://danibragg.com/"
+            }
+        ],
+        "topic": "Learning Representation for Sign Language"
     },
     {
         "date": "4/7/2025",
