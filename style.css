@@ -148,14 +148,14 @@
   }
   
   .schedule-table-container {
-    overflow-x: hidden;
+    overflow-x: hidden; /* Adjust if you prefer horizontal scrolling */
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     padding: 1rem;
   }
   
-  /* --- Revised schedule table styles --- */
+  /* --- Default: Fixed layout for larger screens --- */
   .schedule-table {
     border-collapse: separate;
     border-spacing: 0;
@@ -163,24 +163,31 @@
     font-size: 1rem;
     margin: 0 auto;
     text-align: center;
-    table-layout: fixed;  /* enforce fixed layout to control column widths */
+    table-layout: fixed;  /* forces fixed column widths */
   }
   
   /* Define explicit widths for each column */
   .schedule-table th:nth-child(1),
   .schedule-table td:nth-child(1) {
-    width: 10%;
+    width: 15%;
   }
   
   .schedule-table th:nth-child(2),
   .schedule-table td:nth-child(2) {
-    width: 30%;
+    width: 25%;
   }
   
   .schedule-table th:nth-child(3),
   .schedule-table td:nth-child(3) {
     width: 60%;
-    overflow-wrap: break-word;  /* force text wrapping */
+    overflow-wrap: break-word;  /* force text wrapping if needed */
+  }
+  
+  /* Also add overflow wrapping to all cells */
+  .schedule-table th,
+  .schedule-table td {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
   
   .schedule-table thead th {
@@ -227,20 +234,23 @@
     color: #000;
   }
   
-  /* SR-Only */
-  .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    white-space: nowrap;
-    border: 0;
+  /* --- Mid-size view (below 800px): Use auto layout to avoid overlap --- */
+  @media (max-width: 800px) {
+    .schedule-table {
+      table-layout: auto;
+    }
+    /* Remove the forced percentage widths */
+    .schedule-table th:nth-child(1),
+    .schedule-table td:nth-child(1),
+    .schedule-table th:nth-child(2),
+    .schedule-table td:nth-child(2),
+    .schedule-table th:nth-child(3),
+    .schedule-table td:nth-child(3) {
+      width: auto;
+    }
   }
   
-  /* RESPONSIVE */
+  /* --- Responsive (Mobile: below 700px) --- */
   @media (max-width: 700px) {
     .schedule-table thead {
       display: none;
@@ -302,4 +312,16 @@
     font-family: 'GT Ultra', sans-serif;
     font-weight: 300;
   }
-  
+
+  /* SR-Only */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }

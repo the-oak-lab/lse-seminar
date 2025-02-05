@@ -12,8 +12,12 @@
     },
     {
         "date": "2/3/2025",
-        "speakers": "",
-        "topic": ""
+        "speakers": [
+            {
+                "name": "N/A"
+            }
+        ],
+        "topic": "N/A"
     },
     {
         "date": "2/10/2025",
