@@ -17,7 +17,7 @@
                 "name": "N/A"
             }
         ],
-        "topic": "N/A"
+        "topic": "N/A (speaker rescheduled)"
     },
     {
         "date": "2/10/2025",
@@ -92,13 +92,23 @@
     },
     {
         "date": "4/7/2025",
-        "speaker": "",
-        "topic": ""
+        "speakers": [
+            {
+                "name": "Bryan Shaw (Baylor U)",
+                "link": "https://www.shawlaboratory.com/"
+            }
+        ],
+        "topic": "Tactile Material Science"
     },
     {
         "date": "4/14/2025",
-        "speaker": "",
-        "topic": ""
+        "speakers": [
+            {
+                "name": "Eshed Ohn-Bar (Boston U)",
+                "link": "https://eshed1.github.io/"
+            }
+        ],
+        "topic": "Assistive Motion and Robot Learning"
     },
     {
         "date": "4/21/2025",
