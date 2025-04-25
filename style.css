@@ -28,7 +28,7 @@
   
   /* HEADER */
   .site-header {
-    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+    background: linear-gradient(135deg, #FFA500, #FFD580);
     padding: 4rem 1rem;
     text-align: center;
     position: relative;
@@ -67,7 +67,7 @@
     font-family: 'Source Sans Pro', serif;
     font-weight: 900;
     font-size: 2.8rem;
-    color: #fff;
+    color: #000;
     margin-bottom: 0.5rem;
     letter-spacing: -1px;
   }
@@ -75,7 +75,7 @@
   .subtitle {
     font-family: 'GT Ultra', sans-serif;
     font-weight: 300;
-    color: rgba(255,255,255,0.9);
+    color: #000;
     font-size: 1.5rem;
     margin-top: 0.5rem;
   }
@@ -134,11 +134,11 @@
   }
   
   .intro a {
-    color: #831adfc7;
+    color: #d80000;
   }
   
   .intro a:visited {
-    color: #540a74f7;
+    color: #d80000;
   }
   
   /* SCHEDULE TABLE */

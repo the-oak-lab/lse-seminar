@@ -1,129 +1,22 @@
 [
     {
-        "date": "1/27/2025",
+        "date": "5/27/2025",
         "speakers": [
             {
-                "name": "Yi-Hao Peng (CMU)",
-                "link": "https://yihaopeng.tw"
+                "name": "",
+                "link": ""
             }
         ],
-        "topic": "Seminar Prologue: Exploring Technical Innovations in Accessibility",
+        "topic": "",
         "topicSlides": ""
     },
     {
-        "date": "2/3/2025",
+        "date": "",
         "speakers": [
             {
-                "name": "N/A"
+                "name": ""
             }
         ],
-        "topic": "N/A (speaker rescheduled)"
-    },
-    {
-        "date": "2/10/2025",
-        "speakers": [
-            {
-                "name": "Colin Lea (Apple)",
-                "link": "https://colinlea.com/"
-            }
-        ],
-        "topic": "Fostering More Accessible Communication through Speech Recognition and Sign Language Interpretation"
-    },
-    {
-        "date": "2/17/2025",
-        "speakers": [
-            {
-                "name": "Jason Wu (Apple)",
-                "link": "https://jasonwunix.com/"
-            }
-        ],
-        "topic": "From Agents to Optimization: UI Understanding and Generation"
-    },
-    {
-        "date": "2/24/2025",
-        "speakers": [
-            {
-                "name": "Kayo Yin (UC Berkeley)",
-                "link": "https://kayoyin.github.io/"
-            }
-        ],
-        "topic": "AI for Signed Languages: Challenges and Opportunities"
-    },
-    {
-        "date": "3/3/2025",
-        "speaker": "N/A",
-        "topic": "CMU Spring Break",
-        "topicSlides": "https://www.cmu.edu/hub/calendar/important-dates.html"
-    },
-    {
-        "date": "3/10/2025",
-        "speaker": "N/A",
-        "topic": "N/A (speaker rescheduled)"
-    },
-    {
-        "date": "3/17/2025",
-        "speakers": [
-            {
-                "name": "Elisa Kreiss (UCLA)",
-                "link": "https://www.coalas-lab.com/elisakreiss"
-            }
-        ],
-        "topic": "How Communicative Principles Shape AI for Non-visual Accessibility?"
-    },
-    {
-        "date": "3/24/2025",
-        "speakers": [
-            {
-                "name": "Danna Gurari (CU Boulder)",
-                "link": "https://dannagurari.colorado.edu/"
-            }
-        ],
-        "topic": "AI Descriptions of Visual Content Taken by Blind People"
-    },
-    {
-        "date": "3/31/2025",
-        "speakers": [
-            {
-                "name": "Danielle Bragg (MSR)",
-                "link": "https://danibragg.com/"
-            }
-        ],
-        "topic": "Deploying Real Systems for Better ML Data"
-    },
-    {
-        "date": "4/7/2025",
-        "speaker": "N/A",
-        "topic": "N/A (Conference Submission Deadlines)"
-    },
-    {
-        "date": "4/14/2025",
-        "speakers": [
-            {
-                "name": "Eshed Ohn-Bar (Boston U)",
-                "link": "https://eshed1.github.io/"
-            }
-        ],
-        "topic": "Adaptive Accessibility Systems"
-    },
-    {
-        "date": "4/21/2025",
-        "speakers": [
-            {
-                "name": "Bryan Shaw (Baylor U)",
-                "link": "https://www.shawlaboratory.com/"
-            }
-        ],
-        "topic": "Science4All: Making Science Accessible to Blind and Low-Vision People"
-    },
-    {
-        "date": "4/28/2025",
-        "speakers": [
-          {
-            "name": "N/A",
-            "link": ""
-          }
-        ],
-        "topic": "Conference Travel: CHI 2025",
-        "topicSlides": "https://chi2025.acm.org/"
+        "topic": ""
     }
 ]
