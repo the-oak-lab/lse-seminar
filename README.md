@@ -1,12 +1,12 @@
-## CMU Accessibility Lunch Seminar Website
+## CMU Learning Science & Enginerring Seminar Website
 
-This repository hosts the website for the **CMU Accessibility Lunch Seminar** series. The site is designed to be accessible, responsive, and easy to update.
+This repository hosts the website for the **CMU LSE Seminar** series. The site is designed to be accessible, responsive, and easy to update.
 
-**Live Site:** [https://cmubiglab.github.io/lunch](https://cmubiglab.github.io/lunch)
+**Live Site:** [https://lse-seminar.github.io](https://lse-seminar.github.io)
 
 ### About the Seminar
 
-The CMU Accessibility Lunch Seminar is a series that explores the evolution and future directions of accessibility research and practice. Each week, we feature sessions on various aspects of accessible and assistive technologies, inviting speakers from academia, industry, and beyond.
+The CMU LSE seminar series aims to broaden our understanding of how technology can be leveraged to enhance learning and its impact on learners, instructors, and learning environments. 
 
 ### How to Update the Schedule
 
@@ -18,14 +18,14 @@ The weekly schedule is populated dynamically from a `schedule.json` file. To cha
    Located in the root of the repository, `schedule.json` is a JSON file containing an array of session entries. Each entry looks like this:
    ```json
    {
-     "date": "1/27/2025",
+     "date": "3/12/2025",
      "speakers": [
        {
-         "name": "Yi-Hao Peng",
-         "link": "https://yihaopeng.tw"
+         "name": "Georgie Qiao Jin",
+         "link": "http://georgiejin.com/"
        }
      ],
-     "topic": "AI for Accessibility: Past, Present, and Future",
+     "topic": "Building the Future of Educational VR: Towards an Immersive and Social Learning Experience",
      "topicSlides": "https://example.com/slides"
    }
    ```
@@ -53,8 +53,7 @@ If you want to test changes before pushing:
 
 1. **Clone the Repo:**
    ```bash
-   git clone https://github.com/cmubiglab/lunch.git
-   cd lunch
+   git clone https://github.com/the-oak-lab/lse_seminar.git
    ```
 
 2. **Serve Locally:**

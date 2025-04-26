@@ -1,6 +1,6 @@
 [
     {
-        "date": "5/27/2025",
+        "date": "5/7/2025",
         "speakers": [
             {
                 "name": "",
@@ -11,7 +11,52 @@
         "topicSlides": ""
     },
     {
-        "date": "",
+        "date": "5/28/2025",
+        "speakers": [
+            {
+                "name": ""
+            }
+        ],
+        "topic": ""
+    },
+    {
+        "date": "6/4/2025",
+        "speakers": [
+            {
+                "name": ""
+            }
+        ],
+        "topic": ""
+    },
+    {
+        "date": "6/25/2025",
+        "speakers": [
+            {
+                "name": ""
+            }
+        ],
+        "topic": ""
+    },
+    {
+        "date": "7/2/2025",
+        "speakers": [
+            {
+                "name": ""
+            }
+        ],
+        "topic": ""
+    },
+    {
+        "date": "7/30/2025",
+        "speakers": [
+            {
+                "name": ""
+            }
+        ],
+        "topic": ""
+    },
+    {
+        "date": "8/6/2025",
         "speakers": [
             {
                 "name": ""

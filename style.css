@@ -1,327 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+
 /* RESET & BASE */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background: #f8f7f3;
-    color: #2a2a2a;
-    font-family: 'GT Ultra', sans-serif;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-    font-size: 16px;
-  }
-  
-  img, video {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  @media (max-width: 400px) {
-    body {
-      font-size: 14px;
-    }
-  }
-  
-  /* HEADER */
-  .site-header {
-    background: linear-gradient(135deg, #FFA500, #FFD580);
-    padding: 4rem 1rem;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .site-header::before,
-  .site-header::after {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.15);
-    mix-blend-mode: screen;
-  }
-  
-  .site-header::before {
-    width: 200px;
-    height: 200px;
-    top: -50px;
-    right: 10%;
-  }
-  
-  .site-header::after {
-    width: 300px;
-    height: 300px;
-    bottom: -100px;
-    left: 15%;
-  }
-  
-  .header-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .site-header h1 {
-    font-family: 'Source Sans Pro', serif;
-    font-weight: 900;
-    font-size: 2.8rem;
-    color: #000;
-    margin-bottom: 0.5rem;
-    letter-spacing: -1px;
-  }
-  
-  .subtitle {
-    font-family: 'GT Ultra', sans-serif;
-    font-weight: 300;
-    color: #000;
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-  }
-  
-  @media (max-width: 600px) {
-    .site-header h1 {
-      font-size: 2.2rem;
-    }
-    .subtitle {
-      font-size: 0.9rem;
-    }
-  }
-  
-  /* MAIN CONTENT */
-  main {
-    max-width: 1000px;
-    margin: 3rem auto;
-    padding: 0 1rem;
-  }
-  
-  .section-title {
-    font-family: 'Source Sans Pro', serif;
-    font-weight: 700;
-    font-size: 2rem;
-    color: #2a2a2a;
-    margin-bottom: 1.5rem;
-    position: relative;
-    text-align: center;
-  }
-  
-  .section-title::after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 4px;
-    background: #2a2a2a;
-    margin: 0.5rem auto 0 auto;
-  }
-  
-  .intro {
-    background: #fff;
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    margin-bottom: 3rem;
-  }
-  
-  .intro p {
-    font-family: 'GT Ultra', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
-    color: #4d4d4d;
-    margin-bottom: 1rem;
-    line-height: 1.8;
-    text-align: center;
-  }
-  
-  .intro a {
-    color: #d80000;
-  }
-  
-  .intro a:visited {
-    color: #d80000;
-  }
-  
-  /* SCHEDULE TABLE */
-  .schedule {
-    margin-bottom: 4rem;
-    text-align: center;
-  }
-  
-  .schedule-table-container {
-    overflow-x: hidden; /* Adjust if you prefer horizontal scrolling */
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    padding: 1rem;
-  }
-  
-  /* --- Default: Fixed layout for larger screens --- */
-  .schedule-table {
-    border-collapse: separate;
-    border-spacing: 0;
-    width: 100%;
-    font-size: 1rem;
-    margin: 0 auto;
-    text-align: center;
-    table-layout: fixed;  /* forces fixed column widths */
-  }
-  
-  /* Define explicit widths for each column */
-  .schedule-table th:nth-child(1),
-  .schedule-table td:nth-child(1) {
-    width: 15%;
-  }
-  
-  .schedule-table th:nth-child(2),
-  .schedule-table td:nth-child(2) {
-    width: 25%;
-  }
-  
-  .schedule-table th:nth-child(3),
-  .schedule-table td:nth-child(3) {
-    width: 60%;
-    overflow-wrap: break-word;  /* force text wrapping if needed */
-  }
-  
-  /* Also add overflow wrapping to all cells */
-  .schedule-table th,
-  .schedule-table td {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-  }
-  
-  .schedule-table thead th {
-    font-family: 'Source Sans Pro', serif;
-    font-weight: 600;
-    color: #2a2a2a;
-    background: #fafafa;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-size: 0.9rem;
-    padding: 1rem;
-    border-bottom: 2px solid #eee;
-    text-align: center;
-  }
-  
-  .schedule-table tbody tr:nth-child(even) td {
-    background: #fdfdfd;
-  }
-  
-  .schedule-table tbody tr:hover td {
-    background: #f3f2ee;
-    transition: background 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .schedule-table td {
-    font-family: 'GT Ultra', sans-serif;
-    font-weight: 300;
-    color: #2a2a2a;
-    padding: 1rem;
-    border-top: 1px solid #eee;
-    text-align: center;
-    white-space: normal;
-  }
-  
-  .schedule-table a {
-    text-decoration: none;
-    color: #2a2a2a;
-    transition: color 0.2s ease;
-  }
-  
-  .schedule-table a:hover {
-    text-decoration: underline;
-    color: #000;
-  }
-  
-  /* --- Mid-size view (below 800px): Use auto layout to avoid overlap --- */
-  @media (max-width: 800px) {
-    .schedule-table {
-      table-layout: auto;
-    }
-    /* Remove the forced percentage widths */
-    .schedule-table th:nth-child(1),
-    .schedule-table td:nth-child(1),
-    .schedule-table th:nth-child(2),
-    .schedule-table td:nth-child(2),
-    .schedule-table th:nth-child(3),
-    .schedule-table td:nth-child(3) {
-      width: auto;
-    }
-  }
-  
-  /* --- Responsive (Mobile: below 700px) --- */
-  @media (max-width: 700px) {
-    .schedule-table thead {
-      display: none;
-    }
-  
-    .schedule-table,
-    .schedule-table tbody,
-    .schedule-table tr,
-    .schedule-table td {
-      display: block;
-      width: 100%;
-    }
-  
-    .schedule-table tr {
-      margin-bottom: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.07);
-      background: #fff;
-      padding: 1rem;
-      text-align: left;
-    }
-  
-    .schedule-table td {
-      border-top: none !important;
-      margin-bottom: 1rem;
-      background: transparent;
-      box-shadow: none;
-      position: relative;
-      padding-left: 0;
-      text-align: left;
-    }
-  
-    .schedule-table td::before {
-      content: attr(data-label);
-      display: block;
-      font-family: 'Source Sans Pro', serif;
-      font-weight: 600;
-      text-transform: uppercase;
-      color: #2a2a2a;
-      font-size: 0.8rem;
-      margin-bottom: 0.25rem;
-      text-align: left;
-    }
-  
-    .schedule-table tbody tr:hover td {
-      background: transparent;
-      cursor: default;
-    }
-  }
-  
-  /* FOOTER */
-  .site-footer {
-    text-align: center;
-    font-size: 0.8rem;
-    color: #201f1f;
-    padding: 2rem 1rem;
-    background: #f8f7f3;
-    border-top: 1px solid #eee;
-    font-family: 'GT Ultra', sans-serif;
-    font-weight: 300;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  /* SR-Only */
-  .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    white-space: nowrap;
-    border: 0;
-  }
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  background: #f5f5f5;
+  color: #111;
+  line-height: 1.7;
+}
+
+/* HEADER */
+.site-header {
+  background: linear-gradient(135deg, #ee0979, #ff6a00);
+  color: white;
+  min-height: 38vh;
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.site-header h1 {
+  font-size: 2.75rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.75rem;
+  font-weight: 400;
+  opacity: 0.95;
+}
+
+.subtitle-small {
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+/* INTRO */
+.intro {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+  padding: 2.5rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+  margin: -4rem auto 4rem;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1.15rem;
+  color: #222;
+}
+
+.intro a {
+  font-weight: 600;
+  color: #c80040;
+  text-decoration: none;
+}
+
+.intro a:hover {
+  text-decoration: underline;
+}
+
+/* SECTION TITLE */
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 2rem;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 4px;
+  background: linear-gradient(135deg, #ee0979, #ff6a00);
+  margin: 0.75rem auto 0;
+  border-radius: 2px;
+}
+
+/* GET INVOLVED */
+
+.involved-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.involved-btn {
+  background-color: #f7edf1;
+  color: #ff6a00;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.involved-btn:hover {
+  background-color: #fdd8e5;
+}
+
+/* SCHEDULE TABLE */
+.schedule-table-container {
+  background: white;
+  margin: 0 auto 5rem;
+  max-width: 1200px;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.07);
+  overflow-x: auto;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 12px;
+}
+
+.schedule-table thead th {
+  background: #fff3e9;
+  color: #111;
+  padding: 1.2rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #eee;
+}
+
+.schedule-table tbody td {
+  padding: 1.2rem;
+  border-top: 1px solid #f0f0f0;
+  color: #333;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.schedule-table tbody tr:hover {
+  background: #fff0f5;
+  transition: background 0.3s ease;
+}
+
+/* FOOTER */
+.site-footer {
+  background: #f1f1f1;
+  color: #444;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.site-footer a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+:root {
+  --accent-color: #ff2d75;  /* Fuchsia-like pink for LSE */
+}
