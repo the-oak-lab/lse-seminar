@@ -19,8 +19,8 @@ body {
 .site-header {
   background: linear-gradient(135deg, #ee0979, #ff6a00);
   color: white;
-  min-height: 38vh;
-  padding: 5rem 1rem;
+  min-height: 33vh;
+  padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +55,7 @@ body {
   padding: 2.5rem;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
   max-width: 700px;
-  margin: -4rem auto 4rem;
+  margin: -3.5rem auto 3rem;
   text-align: center;
 }
 
@@ -94,7 +94,6 @@ body {
 }
 
 /* GET INVOLVED */
-
 .involved-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -118,7 +117,13 @@ body {
   background-color: #fdd8e5;
 }
 
+
 /* SCHEDULE TABLE */
+.schedule {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
 .schedule-table-container {
   background: white;
   margin: 0 auto 5rem;
@@ -135,14 +140,33 @@ body {
   text-align: center;
   font-size: 1.1rem;
   border-radius: 12px;
+  table-layout: fixed;  /* forces fixed column widths */
 }
+
+/* Define explicit widths for each column */
+.schedule-table th:nth-child(1),
+.schedule-table td:nth-child(1) {
+  width: 20%;
+}
+
+.schedule-table th:nth-child(2),
+.schedule-table td:nth-child(2) {
+  width: 25%;
+}
+
+.schedule-table th:nth-child(3),
+.schedule-table td:nth-child(3) {
+  width: 55%;
+  overflow-wrap: break-word;  /* force text wrapping if needed */
+}
+
 
 .schedule-table thead th {
   background: #fff3e9;
   color: #111;
   padding: 1.2rem;
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1rem;
   text-transform: uppercase;
   border-bottom: 2px solid #eee;
 }
@@ -160,6 +184,72 @@ body {
 .schedule-table tbody tr:hover {
   background: #fff0f5;
   transition: background 0.3s ease;
+}
+
+/* --- Mid-size view (below 800px): Use auto layout to avoid overlap --- */
+@media (max-width: 800px) {
+  .schedule-table {
+    table-layout: auto;
+  }
+  /* Remove the forced percentage widths */
+  .schedule-table th:nth-child(1),
+  .schedule-table td:nth-child(1),
+  .schedule-table th:nth-child(2),
+  .schedule-table td:nth-child(2),
+  .schedule-table th:nth-child(3),
+  .schedule-table td:nth-child(3) {
+    width: auto;
+  }
+}
+
+/* --- Responsive (Mobile: below 700px) --- */
+@media (max-width: 700px) {
+  .schedule-table thead {
+    display: none;
+  }
+
+  .schedule-table,
+  .schedule-table tbody,
+  .schedule-table tr,
+  .schedule-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .schedule-table tr {
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    background: #fff;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .schedule-table td {
+    border-top: none !important;
+    margin-bottom: 1rem;
+    background: transparent;
+    box-shadow: none;
+    position: relative;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .schedule-table td::before {
+    content: attr(data-label);
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    text-align: left;
+  }
+
+  .schedule-table tbody tr:hover td {
+    background: transparent;
+    cursor: default;
+  }
 }
 
 /* FOOTER */
