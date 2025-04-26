@@ -1,4 +1,4 @@
-## CMU Learning Science & Enginerring Seminar Website
+## CMU Learning Science & Engineering Seminar Website
 
 This repository hosts the website for the **CMU LSE Seminar** series. The site is designed to be accessible, responsive, and easy to update.
 
