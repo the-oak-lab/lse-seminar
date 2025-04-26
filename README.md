@@ -2,7 +2,7 @@
 
 This repository hosts the website for the **CMU LSE Seminar** series. The site is designed to be accessible, responsive, and easy to update.
 
-**Live Site:** [https://lse-seminar.github.io](https://lse-seminar.github.io)
+**Live Site:** [https://the-oak-lab.github.io/lse-seminar](https://the-oak-lab.github.io/lse-seminar)
 
 ### About the Seminar
 
