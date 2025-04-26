@@ -19,7 +19,7 @@ body {
 .site-header {
   background: linear-gradient(135deg, #ee0979, #ff6a00);
   color: white;
-  min-height: 33vh;
+  min-height: 30vh;
   padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
