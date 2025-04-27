@@ -53,7 +53,7 @@ If you want to test changes before pushing:
 
 1. **Clone the Repo:**
    ```bash
-   git clone https://github.com/the-oak-lab/lse_seminar.git
+   git clone https://github.com/the-oak-lab/lse-seminar.git
    ```
 
 2. **Serve Locally:**
