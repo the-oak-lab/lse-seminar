@@ -104,7 +104,6 @@ body {
 
 .involved-btn {
   background-color: #f7edf1;
-  color: #ff6a00;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: 500;
@@ -182,7 +181,7 @@ body {
 }
 
 .schedule-table tbody tr:hover {
-  background: #fff0f5;
+  background: #fff3e9;
   transition: background 0.3s ease;
 }
 
