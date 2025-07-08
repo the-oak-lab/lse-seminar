@@ -17,7 +17,7 @@ body {
 
 /* HEADER */
 .site-header {
-  background: linear-gradient(135deg, #ee0979, #ff6a00);
+  background: linear-gradient(135deg, #B01C33, #438696);
   color: white;
   min-height: 30vh;
   padding: 3rem 1rem;
@@ -54,7 +54,7 @@ body {
   border-radius: 18px;
   padding: 2.5rem;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
-  max-width: 750px;
+  max-width: 900px;
   margin: -3.3rem auto 3rem;
   text-align: center;
 }
@@ -66,7 +66,7 @@ body {
 
 .intro a {
   font-weight: 600;
-  color: #c80040;
+  color: #B01C33;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ body {
   display: block;
   width: 200px;
   height: 3px;
-  background: linear-gradient(135deg, #ee0979, #ff6a00);
+  background: linear-gradient(135deg, #B01C33, #438696);
   margin: 0.75rem auto 0;
   border-radius: 2px;
 }
@@ -126,7 +126,7 @@ body {
 .schedule-table-container {
   background: white;
   margin: 0 auto 5rem;
-  max-width: 1200px;
+  max-width: 1250px;
   border-radius: 20px;
   padding: 1rem;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.07);
@@ -161,7 +161,7 @@ body {
 
 
 .schedule-table thead th {
-  background: #fff3e9;
+  background: #F2F4F8;
   color: #111;
   padding: 1.2rem;
   font-weight: 700;
@@ -181,7 +181,7 @@ body {
 }
 
 .schedule-table tbody tr:hover {
-  background: #fff3e9;
+  background: #F2F4F8;
   transition: background 0.3s ease;
 }
 
@@ -272,5 +272,5 @@ body {
 }
 
 :root {
-  --accent-color: #ff2d75;  /* Fuchsia-like pink for LSE */
+  --accent-color: #B01C33; 
 }
