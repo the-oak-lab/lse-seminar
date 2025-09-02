@@ -3,7 +3,7 @@
         "date": "9/10/2025",
         "speakers": [
             {
-                "name": "Michael Asher",
+                "name": "Michael Asher (Project Scientist @ CMU)",
                 "link": "https://michaelasher.com/"
             }
         ],
@@ -14,7 +14,7 @@
         "date": "9/24/2025",
         "speakers": [
             {
-                "name": "Elizabeth Onstwedder",
+                "name": "Elizabeth Onstwedder (Senior Learning Designer @ Duolingo)",
                 "link": "https://www.linkedin.com/in/elizabethonstwedder"
             }
         ],
@@ -24,7 +24,7 @@
         "date": "10/8/2025",
         "speakers": [
             {
-                "name": "Collins Vaye",
+                "name": "Collins Vaye (Postdoc @ CMU)",
                 "link": "https://hcii.cmu.edu/people/collins-vaye"
             }
         ],
@@ -34,8 +34,8 @@
         "date": "10/22/2025",
         "speakers": [
             {
-                "name": "Kristen DiCerbo",
-                "link": "https://www.kristendicerbo.com/about-me"
+                "name": "Kristen DiCerbo (Chief Learning Officer at Khan Academy)",
+                "link": "https://www.kristendicerbo.com/home"
             }
         ],
         "topic": ""
@@ -44,7 +44,7 @@
         "date": "11/5/2025",
         "speakers": [
             {
-                "name": "Ru Lyu",
+                "name": "Ru Lyu (Postdoc @ CMU)",
                 "link": "https://hcii.cmu.edu/people/qianru-lyu"
             }
         ],
@@ -54,8 +54,8 @@
         "date": "11/19/2025",
         "speakers": [
             {
-                "name": "PhD Student Sign-up",
-                "link": "https://docs.google.com/forms/d/e/1FAIpQLSeFdtnpVifjjNQLHnm6LMrVIRm8k5cZ8vDWCMpNKh7p2KV0ug/viewform"
+                "name": "Ashish Gurung (Postdoc @ CMU)",
+                "link": "https://www.agurung.dev/"
             }
         ],
         "topic": ""
@@ -64,7 +64,7 @@
         "date": "12/3/2025",
         "speakers": [
             {
-                "name": "Stacy Shaw",
+                "name": "Stacy Shaw (Assistant Professor @ WPI)",
                 "link": "https://sites.google.com/view/stacytshaw/home"
             }
         ],
