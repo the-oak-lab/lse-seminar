@@ -185,6 +185,63 @@ body {
   transition: background 0.3s ease;
 }
 
+/* Make the Speaker column wider */
+.schedule-table th:nth-child(1),
+.schedule-table td:nth-child(1) { width: 16%; }
+
+.schedule-table th:nth-child(2),
+.schedule-table td:nth-child(2) { width: 48%; }  /* wider */
+
+.schedule-table th:nth-child(3),
+.schedule-table td:nth-child(3) { width: 36%; }
+
+/* Speaker formatting */
+.schedule-table .speaker-link {
+  display: inline-block;                 /* stack name + role */
+  color: #2b4c7e;                        /* softer link color */
+  text-decoration: none;
+}
+.schedule-table .speaker-link:hover { color: #1d3557; text-decoration: underline; }
+
+.schedule-table .speaker-name {
+  display: block;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.schedule-table .speaker-role {
+  display: block;
+  margin-top: .1rem;
+  font-size: .92em;
+  color: #6b7280;                        /* muted for secondary line */
+}
+
+/* Multiple speakers: tidy spacing */
+.schedule-table .speaker-item + .speaker-item {
+  margin-top: .6rem;
+  padding-top: .6rem;
+  border-top: 1px dashed #e5e7eb;
+}
+
+/* Match topic links to the same color */
+.schedule-table td:nth-child(3) a {
+  color: #2b4c7e;
+  text-decoration: none;
+}
+.schedule-table td:nth-child(3) a:hover { color: #1d3557; text-decoration: underline; }
+
+/* Optional: nicer "TBA" pill */
+.schedule-table .tba {
+  display: inline-block;
+  padding: .2rem .55rem;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #3730a3;
+  font-weight: 600;
+  font-size: .85em;
+}
+
+
 /* --- Mid-size view (below 800px): Use auto layout to avoid overlap --- */
 @media (max-width: 800px) {
   .schedule-table {
